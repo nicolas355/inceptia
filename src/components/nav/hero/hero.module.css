@@ -1,5 +1,8 @@
 
 
+.grid{
+    padding: 4rem 0rem;
+}
 @media (min-width:1024px){
     .grid{
         display: grid;
@@ -9,6 +12,9 @@
     }
 }
 
+
+
+    
 
 
 .contenedor_img{

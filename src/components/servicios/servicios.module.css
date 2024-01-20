@@ -36,17 +36,35 @@ height: 39rem;
     font-size: 1.7rem;
     font-family: 'roboto';
     line-height: 1.6;
+    
 }
+
 .titulo{
+    font-size: 3rem;
     color: white;
+text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     color: var(--color4);
     text-shadow: 1px 0px 0px rgba(0,0,0,0.6);
     line-height: 1.5;
     font-weight: bold;
-    font-size: 5rem;
 }
+@media (min-width:768px){
+    .titulo{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+        color: var(--color4);
+        text-shadow: 1px 0px 0px rgba(0,0,0,0.6);
+        line-height: 1.5;
+        font-weight: bold;
+        font-size: 5rem;
+    }
+}
+
+
+
 
 .contenedorServices{
    

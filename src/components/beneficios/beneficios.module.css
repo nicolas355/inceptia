@@ -25,11 +25,51 @@
 }
 
 
-
-
-
 .flex{
     display: flex;
-    margin-top: 4rem;
-    gap: 2rem;
+    flex-direction: column;
+    margin: 4rem 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    margin: 1rem 0rem;
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: var(--color3);
+  text-shadow: 0px 1px 0px var(--color1);
+  
+
+}
+
+
+
+@media (min-width:768px){
+    .flex{
+        display: flex;
+        margin-top: 4rem;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .title{
+        text-align: start;
+        margin: 1rem 0rem;
+    }
+}
+
+
+
+.contenidoBeneficios{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.parrafo{
+    font-family: 'roboto';
+    font-weight: 400;
+    line-height: 1.5;
+    width: 100%;
 }

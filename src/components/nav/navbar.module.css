@@ -29,6 +29,8 @@ font-weight: 700;
 
 }
 
+
+
 @media (min-width:1024px){
     .background{
  
@@ -100,4 +102,24 @@ display: 	inline-block;
     color: white;
     font-family: 'roboto';
     font-weight: 500;
+}
+
+
+
+.menuDeskop{
+    display: none;
+}
+
+.contenedorMobile{
+    display: block;
+}
+
+@media (min-width:768px){
+    .menuDeskop{
+        display: block;
+    }
+
+    .contenedorMobile{
+        display: none;
+    }
 }

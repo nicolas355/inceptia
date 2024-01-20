@@ -1,65 +1,47 @@
 import styles from "./beneficios.module.css";
-import optimizar from "../../assets/images/optimizar.png";
+import optimizar from "../../assets/images/2.png";
+import atencion from "../../assets/images/1.png";
 import beneficios from "../../assets/images/beneficios.png";
 const Beneficios = () => {
   return (
-    <div>
+    <div className={styles.contenidoBeneficios}>
       <div className={`contenedor`}>
         <h2>Por Qué Elegirnos</h2>
-        <h3>Beneficios </h3>
+        <h3 >Beneficios </h3>
 
         <section className={styles.grid}>
           <div>
             <div className={styles.flex}>
               <div>
-                <img width={75} src={optimizar} alt="imagen_optimizar" />
+                <img width={80} src={optimizar} alt="imagen_optimizar" />
               </div>
 
               <div>
-                <h3>Potencia y Eficiencia </h3>
-                <p>
-         Ofrecemos una capacidad excepcional de potencia y fuerza bruta en cada campaña. Con una frecuencia de llamadas y mensajes ajustable a tus necesidades, garantizamos resultados que rivalizan e incluso superan a los call centers, ¡a solo la mitad del costo!
+                <h3 className={styles.title}>Potencia y Eficiencia </h3>
+                <p className={styles.parrafo}>
+                  Ofrecemos una capacidad excepcional de potencia y fuerza bruta
+                  en cada campaña. Con una frecuencia de llamadas y mensajes
+                  ajustable a tus necesidades, garantizamos resultados que
+                  rivalizan e incluso superan a los call centers, ¡a solo la
+                  mitad del costo!
                 </p>
               </div>
             </div>
 
             <div className={styles.flex}>
               <div>
-                <img width={75} src={optimizar} alt="imagen_optimizar" />
+                <img  width={80} src={atencion} alt="imagen_optimizar" />
               </div>
 
               <div>
-                <h3> Atención al Cliente Inigualable </h3>
-                <p>
-                Respuestas Instantáneas, Siempre: En Inceptia, entendemos la importancia de la atención al cliente. Ofrecemos respuestas inmediatas y personalizadas, incluso en los momentos menos esperados, como los viernes, sábados o días feriados. Tu satisfacción es nuestra prioridad, y nuestra disponibilidad constante es tu garantía de tranquilidad
+                <h3 className={styles.title}> Atención al Cliente Inigualable </h3>
+                <p className={styles.parrafo}>
+                Entendemos la importancia de brindar un servicio al cliente excepcional. Ofrecemos respuestas inmediatas y personalizadas. Tu satisfacción es nuestra prioridad, y nuestra disponibilidad constante es tu garantía de tranquilidad.
                 </p>
               </div>
             </div>
 
-
-
-            <div className={styles.flex}>
-              <div>
-                <img width={75} src={optimizar} alt="imagen_optimizar" />
-              </div>
-
-              <div>
-                <h3>Optimizar Trabajo </h3>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Nihil, officia.
-                </p>
-              </div>
-            </div>
-
-
-
-       
-
-
-
-
-           
+      
           </div>
 
           <div>
