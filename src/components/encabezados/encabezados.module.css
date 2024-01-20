@@ -1,0 +1,16 @@
+.img{
+    margin: 0 auto;
+    width: 80px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 0rem;
+}
+
+.borderB{
+    border-bottom: 4px solid var(--color2);
+}

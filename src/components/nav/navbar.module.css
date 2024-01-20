@@ -1,0 +1,103 @@
+
+
+.contenedor_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.7rem;
+
+}
+
+.h1{
+ 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: var(--color4);
+    font-weight: 400;
+    text-shadow: 1px 0px 0px rgba(0,0,0,0.6);
+    
+text-transform: lowercase;
+
+
+
+
+
+}
+
+.span{
+font-weight: 700;
+
+}
+
+@media (min-width:1024px){
+    .background{
+ 
+
+        width: 100%;
+        border-radius: 0% 0px 100% 0px;
+        height: 100%;
+       
+        background: rgb(40,100,247);
+        background: linear-gradient(90deg, rgba(40,100,247,1) 0%, rgba(13,191,235,1) 100%);
+        /*
+        background: rgb(82,209,177);
+        background: linear-gradient(0deg, rgba(82,209,177,1) 30%, rgba(8,99,224,1) 83%);
+       */
+       height: 59rem;
+       padding: 5px 0px;
+       
+       
+       z-index: -1;
+       
+       }
+}
+
+
+.background{
+ 
+
+    width: 100%;
+
+    height: 100%;
+   
+    background: rgb(40,100,247);
+    background: linear-gradient(90deg, rgba(40,100,247,1) 0%, rgba(13,191,235,1) 100%);
+    /*
+    background: rgb(82,209,177);
+    background: linear-gradient(0deg, rgba(82,209,177,1) 30%, rgba(8,99,224,1) 83%);
+   */
+
+   }
+
+
+
+.logo{
+    width: 75px;
+   
+    height: 75px;
+    object-fit:  cover;
+    object-position: center;
+}
+
+.contenedor_menu{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+  
+   
+}
+
+.roundend{
+border-radius: 20px;
+border: 2px solid var(--color4);
+padding: 6px 20px;
+font-weight: bold;
+display: 	inline-block;
+
+}
+
+.enlace{
+    color: white;
+    font-family: 'roboto';
+    font-weight: 500;
+}

@@ -1,0 +1,73 @@
+
+
+*{
+
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+html {
+  font-size: 62.5%;
+
+  box-sizing: border-box;
+  background: #f1fffe;
+
+}
+
+:root {
+  --color1: #2490c9;
+  --color2: #52d1b1;
+  --color3: #0863e0;
+  --color4:#ffff
+ }
+
+ [class$="contenedor"] {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+
+
+li{
+  margin-left: 2rem;
+}
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+h1 {
+  font-size: 4rem;
+  font-family:'Montserrat' ;
+  font-weight: 700;
+}
+h2 {
+  font-size: 3.5rem;
+  font-family:'Montserrat' ;
+  font-weight: 500;
+}
+h3 {
+  font-size: 1.73rem;
+}
+
+p{
+  font-size: 1.8rem;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+ display: block;
+
+}
+
+li{
+  list-style: none;
+}

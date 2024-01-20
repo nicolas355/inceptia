@@ -1,0 +1,129 @@
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr ;
+    align-items: center;
+
+}
+
+@media (min-width:768px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}
+
+
+
+.contactoTitle{
+padding: 3rem 0rem;
+margin-top: 10rem;
+}
+.contenedorInputs{
+    display: block;
+    gap: 20px;
+}
+
+@media (min-width:768px){
+    .contenedorInputs{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.input{
+    border-radius: 50px;
+    padding: 2.3rem 2rem;
+ width: 70%;
+
+ margin: 20px 0px;
+    border: 1px solid #dcdcdc;
+    box-shadow: -1px 8px 5px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 8px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 8px 5px -10px rgba(0,0,0,0.75);
+    
+
+}
+
+
+@media (min-width:768px){
+    .input{
+        border-radius: 50px;
+        padding: 2.3rem 2rem;
+        width: 90%;
+        border: 1px solid #dcdcdc;
+        box-shadow: -1px 8px 5px -10px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -1px 8px 5px -10px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 8px 5px -10px rgba(0,0,0,0.75);
+        
+    
+    }
+}
+
+
+
+.mensaje{
+    border-radius: 30px;
+    display: block;
+    width: 70%;
+    text-decoration: none;
+    border: 1px solid #dcdcdc;
+    margin-top: 2.1rem;
+ 
+    box-shadow: -1px 8px 5px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 8px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 8px 5px -10px rgba(0,0,0,0.75);
+    padding:2rem 2rem;
+}
+
+.mensaje:focus,.input:focus{
+    outline-color: var(--color2);
+
+
+
+}
+
+@media (min-width:768px){
+    .mensaje{
+        border-radius: 30px;
+        display: block;
+        width: 90%;
+        text-decoration: none;
+        border: 1px solid #dcdcdc;
+        margin-top: 2.1rem;
+     
+        box-shadow: -1px 8px 5px -10px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -1px 8px 5px -10px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 8px 5px -10px rgba(0,0,0,0.75);
+        padding:2rem 2rem;
+    }
+    
+    .mensaje:focus,.input:focus{
+        outline-color: var(--color2);
+    
+    
+    
+    }
+}
+
+
+
+
+.button{
+    color: white;
+    background: var(--color3);
+    padding: 1.5rem 5rem;
+    border-radius: 20px;
+    margin-top: 2.4rem;
+    text-align: center;
+    border: none;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.imgContact{
+    width: 100%;
+    margin: 0 auto;
+}

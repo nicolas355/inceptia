@@ -1,0 +1,35 @@
+
+.imgRobot{
+    display: none;
+}
+
+@media (min-width:768px){
+    .imgRobot{
+        display: block;
+    }
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin: 2rem 0rem;
+}  
+@media (min-width:768px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2rem 0rem;
+    }
+}
+
+
+
+
+
+.flex{
+    display: flex;
+    margin-top: 4rem;
+    gap: 2rem;
+}
