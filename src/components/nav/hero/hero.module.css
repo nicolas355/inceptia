@@ -92,17 +92,19 @@
    font-weight: bold;
    font-family: 'Montserrat', sans-serif;
    background:var(--color2);
+
+
     color: #ffffff;
 
-    box-shadow: -4px 6px 5px -5px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -4px 6px 5px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: -4px 6px 5px -5px rgba(0,0,0,0.75);
+  
   
 
 }
 
 .cta:hover{
-    background: var(--color3);
-    color: white;
+    background: var(--color4);
+    color: black;
 }
 
+
+      

@@ -1,13 +1,17 @@
 import styles from "./beneficios.module.css";
 import optimizar from "../../assets/images/2.png";
+import mejora from "../../assets/images/3.png";
 import atencion from "../../assets/images/1.png";
 import beneficios from "../../assets/images/beneficios.png";
 const Beneficios = () => {
   return (
     <div className={styles.contenidoBeneficios}>
       <div className={`contenedor`}>
-        <h2>Por Qué Elegirnos</h2>
-        <h3 >Beneficios </h3>
+        <div className={styles.bgSeparador}>
+        <h2 className={styles.h2}>¿Por Qué Elegirnos?</h2>
+
+        </div>
+     
 
         <section className={styles.grid}>
           <div>
@@ -26,7 +30,12 @@ const Beneficios = () => {
                   mitad del costo!
                 </p>
               </div>
+
+
+          
             </div>
+
+            
 
             <div className={styles.flex}>
               <div>
@@ -41,6 +50,23 @@ const Beneficios = () => {
               </div>
             </div>
 
+
+            <div className={styles.flex}>
+              <div>
+                <img width={80} src={mejora} alt="imagenMejora" />
+              </div>
+
+              <div>
+                <h3 className={styles.title}>Optimización de Recursos
+ </h3>
+                <p className={styles.parrafo}>
+                Al implementar asistentes conversacionales para automatizar tus contactos inbound y outbound, lograrás una significativa optimización de recursos. La capacidad de respuesta inmediata y personalizada de los asistentes reduce la carga de trabajo del personal, permitiéndoles centrarse en tareas más estratégicas y complejas
+                </p>
+              </div>
+
+
+          
+            </div>
       
           </div>
 

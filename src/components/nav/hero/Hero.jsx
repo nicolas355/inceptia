@@ -9,7 +9,7 @@ const Hero = () => {
       <div className={`${styles.grid} contenedor`} >
         <div className={`${styles.contenido}`}>
           <h1 className={styles.h1}>
-          Plataforma integrada de Robots de voz y Chats basados en Inteligencia Artificial          </h1>
+          Plataforma integrada de Robots de voz y <span className={styles.chats}>Chats</span> basados en Inteligencia Artificial          </h1>
           <p className={styles.parrafo}>
           Potencia Ilimitada en Conversaciones, Resultados Inigualables
           </p>
@@ -19,7 +19,7 @@ const Hero = () => {
           <div className={styles.contenedor_cta}>
 
           <a className={styles.cta} href="">
-          Empieza hoy mismo
+          Solicita una demo
           </a>
           </div>
 

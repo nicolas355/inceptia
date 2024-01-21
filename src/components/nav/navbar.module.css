@@ -39,8 +39,8 @@ font-weight: 700;
         border-radius: 0% 0px 100% 0px;
         height: 100%;
        
-        background: rgb(40,100,247);
-        background: linear-gradient(90deg, rgba(40,100,247,1) 0%, rgba(13,191,235,1) 100%);
+        /*background: rgb(40,100,247);
+        background: linear-gradient(90deg, rgba(40,100,247,1) 0%, rgba(13,191,235,1) 100%);*/
         /*
         background: rgb(82,209,177);
         background: linear-gradient(0deg, rgba(82,209,177,1) 30%, rgba(8,99,224,1) 83%);
@@ -64,10 +64,11 @@ font-weight: 700;
    
     background: rgb(40,100,247);
     background: linear-gradient(90deg, rgba(40,100,247,1) 0%, rgba(13,191,235,1) 100%);
-    /*
-    background: rgb(82,209,177);
-    background: linear-gradient(0deg, rgba(82,209,177,1) 30%, rgba(8,99,224,1) 83%);
-   */
+    
+    /*background: rgb(82,209,177);
+    background: linear-gradient(0deg, rgba(82,209,177,1) 30%, rgba(8,99,224,1) 83%);*/
+  
+   
 
    }
 

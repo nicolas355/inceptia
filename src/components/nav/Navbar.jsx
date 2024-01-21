@@ -20,17 +20,17 @@ const Navbar = () => {
           <nav>
             <ul className={styles.contenedor_menu}>
               <li>
-                <a className={styles.enlace} href="#">Home</a>
+                <a className={styles.enlace} href="#">Inicio</a>
               </li>
 
-              <li>
-                <a className={styles.enlace} href="#">Services</a>
-              </li>
 
               <li>
                 <a className={styles.enlace} href="#">Beneficios</a>
               </li>
 
+              <li>
+                <a className={styles.enlace} href="#">Servicios</a>
+              </li>
            
            
 

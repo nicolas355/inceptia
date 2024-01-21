@@ -29,7 +29,7 @@ const Servicios = () => {
       <div className={` ${styles.gridCajas} `}>
           {services.map((servicios) => (
         <div className={styles.caja}>
-            <div key={services}>
+            <div className={styles} key={services}>
               <h2 className={styles.title}>{servicios.title} </h2>
               <p className={styles.parrafo}>{servicios.paragraph}</p>
 
