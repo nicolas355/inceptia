@@ -8,14 +8,14 @@ const services = [
 
     {
         title: "Recepción de Solicitudes Automatizadas   ",
-        paragraph: "La plataforma gestiona llamadas inbound para pedidos y turnos, valida parámetros,. Se integra con sistemas existentes, es configurable y se implementa en semanas",
+        paragraph: "La plataforma gestiona llamadas inbound para pedidos y turnos, valida parámetros.Se integra con sistemas existentes, es configurable y se implementa en semanas",
         image: "../public/assets/images/analiticas.png",
         id:crypto.randomUUID()
       },
 
       {
         title: "Atención virtual de clientes        ",
-        paragraph: "La plataforma virtual de ventas facilita la gestión de campañas outbound con flexibilidad en diálogos y ofertas. Es configurable y parametrizable, adaptándose a sus necesidades, con la opción de escalación a agentes humanos integrada. Además, ofrece omnicanalidad (Voz, Chat, SMS)",
+        paragraph: "Permite gestionar llamadas inbound de clientes con reclamaciones, con la posibilidad de integración con sistemas de la compañía para transaccionar y gestionar.",
         image: "../public/assets/images/analiticas.png",
         id:crypto.randomUUID()
       },
@@ -39,8 +39,8 @@ const services = [
       },
 
       {
-        title: "Agencia de cobranzas automatizadas",
-        paragraph: "Plataforma Inteligente para la gestión de cobranzas. Permite gestionar sus campañas con distintos scripts",
+        title: "Ventas",
+        paragraph: "La plataforma virtual de ventas facilita la gestión de campañas outbound con flexibilidad en diálogos y ofertas. Es configurable y parametrizable, adaptándose a sus necesidades, con la opción de escalación a agentes humanos integrada. Además, ofrece omnicanalidad (Voz, Chat, SMS)",
         image: "../public/assets/images/analiticas.png",
         id:crypto.randomUUID()
       },

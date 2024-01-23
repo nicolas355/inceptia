@@ -14,16 +14,27 @@
 
 
 
-    
-
-
 .contenedor_img{
-    margin: 0 auto;
+    margin: 3.4rem auto;
     transform: rotate(345deg);
   
     animation: mover 4s  ease infinite;
  
 }
+
+@media (min-width:768px){
+    .contenedor_img{
+        margin: 0rem auto;
+        transform: rotate(345deg);
+      
+        animation: mover 4s  ease infinite;
+     
+    }
+}
+
+
+
+
 
 @keyframes mover {
     0%, 100% { transform: translateY(0); }

@@ -44,7 +44,8 @@ font-weight: 900;
 }
 
 .input{
-    border-radius: 50px;
+    border-radius: 0.8rem;
+   
     padding: 2.3rem 2rem;
  width: 70%;
 
@@ -60,7 +61,7 @@ font-weight: 900;
 
 @media (min-width:768px){
     .input{
-        border-radius: 50px;
+        border-radius: 1rem;
         padding: 2.3rem 2rem;
         width: 90%;
         border: 1px solid #dcdcdc;
@@ -75,7 +76,7 @@ font-weight: 900;
 
 
 .mensaje{
-    border-radius: 30px;
+    border-radius: 1rem;
     display: block;
     width: 70%;
     text-decoration: none;
@@ -97,7 +98,7 @@ font-weight: 900;
 
 @media (min-width:768px){
     .mensaje{
-        border-radius: 30px;
+        border-radius: 1rem;
         display: block;
         width: 90%;
         text-decoration: none;
