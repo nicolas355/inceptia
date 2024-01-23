@@ -11,7 +11,7 @@ const Hero = () => {
           <h1 className={styles.h1}>
           Plataforma integrada de Robots de voz y <span className={styles.chats}>Chats</span> basados en Inteligencia Artificial          </h1>
           <p className={styles.parrafo}>
-          Potencia Ilimitada en Conversaciones, Resultados Inigualables
+          Potencia Ilimitada en conversaciones, resultados inigualables
           </p>
           <p className={styles.parrafo}>
           Con nuestra plataforma, puedes automatizar escenarios de negocio, gestionar campañas de cobranza, recibir solicitudes de voz y texto, y mucho más.
