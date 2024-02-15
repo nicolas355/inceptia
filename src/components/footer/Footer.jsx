@@ -1,5 +1,5 @@
 import React from 'react'
-import footer from '../../assets/images/footer.png'
+import footer from '../../assets/images/logo.png'
 import styles from './footer.module.css'
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
       <footer>
         <div className={styles.contenedorFooter}>
             <img className={styles.imagen} src={footer} alt="logo_footer_Inceptia" />
-            <p className={styles.parrafo}>Inceptia Copyright @{new Date().getFullYear()} Todos los derechos reservados </p>
+            <p className={styles.parrafo}>Sofware IA Copyright @{new Date().getFullYear()} Todos los derechos reservados </p>
         </div>
       </footer>
 

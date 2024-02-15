@@ -24,6 +24,7 @@ const Hero = () => {
           </div>
 
 
+
         </div>
 
         <div className={styles.contenedor_img}>

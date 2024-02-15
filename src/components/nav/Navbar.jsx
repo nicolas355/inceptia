@@ -1,4 +1,4 @@
-import logo from "../../assets/images/logo_inceptia.jpg";
+import logo from "../../assets/images/logo.png";
 import styles from '../nav/navbar.module.css'
 import Hero from "./hero/Hero";
 import '../../index.css'
@@ -13,7 +13,7 @@ const Navbar = () => {
 
       <div className={`${styles.contenedor_content} contenedor`} >
         <div className="logo">
-         <h1 className={styles.h1}>INCEPT<span className={styles.span}>IA</span></h1>
+         <h1 className={styles.h1}>Sofware<span className={styles.span}>IA</span></h1>
         </div>
 
         <div className={styles.menuDeskop}>
